@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodies</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Food Ordering Form</legend>
+
+            <label for="customer-name">Your Name:</label>
+            <input type="text" id="customer-name" name="customer-name" required>
+            <br><br>
+
+            <label for="karachi-areas">Delivery Area:</label>
+            <select id="karachi-areas" name="karachi-areas" required>
+                <option value="">-- Select an Area --</option>
+                <option value="clifton">Clifton</option>
+                <option value="dha">DHA (Defence Housing Authority)</option>
+                <option value="gulshan">Gulshan-e-Iqbal</option>
+                <option value="gulistan">Gulistan-e-Johar</option>
+                <option value="nazimabad">Nazimabad</option>
+                <option value="northnazimabad">North Nazimabad</option>
+                <option value="korangi">Korangi</option>
+                <option value="lyari">Lyari</option>
+                <option value="malir">Malir</option>
+                <option value="orangi">Orangi Town</option>
+                <option value="saddar">Saddar</option>
+                <option value="shahrah">Shahrah-e-Faisal</option>
+                <option value="sohrab">Sohrab Goth</option>
+                <option value="site">SITE Area</option>
+            </select>
+            <br><br>
+
+            <label for="starter">Starter:</label>
+            <select id="starter" name="starter" >
+                <option value="">-- Starter --</option>
+                <option value="starter"> Chicken Soup</option>
+                <option value="starter">Chicken Samosa</option>
+                <option value="starter">Vegetable Spring Rolls</option>>
+                <option value="starter">Cheese Balls</option>>
+            </select>
+            <br><br>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1">
+            <br><br>
+            <label for="biryani">Biryani:</label>
+            <select id="biyani" name="biryani" >
+                <option value="">-- Biryani --</option>
+                <option value="biryani"> Chicken Biryani</option>
+                <option value="biryani">Mutton Biryani</option>
+                <option value="biryani">Beef Biryani</option>>
+            </select>
+            <br><br>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1">
+            <br><br>
+
+            <label for="curry">Curries:</label>
+            <select id="curry" name="curry" >
+                <option value="">-- Curries --</option>
+                <option value="curry">Butter chicken</option>
+                <option value="curry">Mutton Karahi</option>
+                <option value="curry">Beef Quorma</option>>
+                <option value="curry">Pawn Curry</option>>
+            </select>
+            <br><br>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1">
+            <br><br>
+
+            <label for="bbq">BBQ:</label>
+            <select id="bbq" name="bbq" >
+                <option value="">-- BBQ --</option>
+                <option value="bbq"> Beef Seekh Kabab</option>
+                <option value="bbq">Chicken Tikka</option>
+                <option value="bbq">Fish Tikka</option>>
+                <option value="bbq">Gola Kabab</option>>
+                <option value="bbq">Malai Boti</option>>
+            </select>
+            <br><br>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1">
+            <br><br>
+
+            <label for="desert">Desert:</label>
+            <select id="desert" name="desert" >
+                <option value="">-- Desert --</option>
+                <option value="desert"> Kheer</option>
+                <option value="desert">Ras Malai</option>
+                <option value="desert">Fruit Trifle</option>
+                <option value="desert">Red Velvet Cake</option>
+            </select>
+            <br><br>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1">
+            <br><br>
+
+            <label for="complete-address">Complete Address:</label><br>
+            <textarea id="complete-address" name="complete-address" rows="4" cols="50"></textarea>
+            <br><br>
+            <button type="submit">Place Order</button>
+        </fieldset>
+    </form>
+</body>
+</html>
